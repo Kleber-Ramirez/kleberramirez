@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a4a78;
+    color: white;
+}
+
+header {
+    background-color: #00598C;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sobre-mi, .habilidades {
+    text-align: center;
+    padding: 40px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.imagen img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.descripcion, .habilidades-desc {
+    background-color: #d3dbe4;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    color: black;
+}
+
+.barras {
+    width: 300px;
+}
+
+.barra {
+    background: white;
+    border-radius: 5px;
+    height: 20px;
+    margin: 10px 0;
+    position: relative;
+}
+
+.progreso {
+    height: 100%;
+    border-radius: 5px;
+    background: orange;
+}
+
+.html { width: 70%; }
+.css { width: 45%; }
+.js { width: 40%; }
+.sql { width: 50%; }
+
+.barra span {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.redes img {
+    width: 30px;
+}
